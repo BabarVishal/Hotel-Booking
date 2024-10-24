@@ -53,7 +53,15 @@
             text-decoration: none;
         }
 
-        .btn {
+        .btn a {
+            background: #28a745; /* Green */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .btn  {
             background: #28a745; /* Green */
             color: white;
             border: none;
@@ -217,7 +225,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Rooms</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li><a href="#" class="btn">Book Now</a></li>
+                <li><a href="http://127.0.0.1:5500/Delux-Hotel-Booking-Web/available_rooms.html?checkin=2024-10-31&checkout=2024-10-24&guests=1" class="btn">Book Now</a></li>
             </ul>
         </nav>
     </header>
@@ -251,19 +259,19 @@
                 <img src="https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?" alt="Deluxe Room">
                 <h3>Deluxe Room</h3>
                 <p>From ₹200/night</p>
-                <button class="btn" style="margin-top: 10px;">Book This Room</button> <!-- Added margin -->
+                <button  class="btn" style="margin-top: 10px;"><a href="http://127.0.0.1:5500/Delux-Hotel-Booking-Web/payment.html?room=Family+Room">Book This Room</a></button>
             </div>
             <div class="room">
                 <img src="https://images.pexels.com/photos/261411/pexels-photo-261411.jpeg?" alt="Suite Room">
                 <h3>Suite Room</h3>
                 <p>From ₹350/night</p>
-                <button class="btn" style="margin-top: 10px;">Book This Room</button> <!-- Added margin -->
+                <button  class="btn" style="margin-top: 10px;"><a href="http://127.0.0.1:5500/Delux-Hotel-Booking-Web/payment.html?room=Family+Room">Book This Room</a></button>
             </div>
             <div class="room">
                 <img src="https://images.pexels.com/photos/11448497/pexels-photo-11448497.jpeg?" alt="Family Room">
                 <h3>Family Room</h3>
                 <p>From ₹300/night</p>
-                <button class="btn" style="margin-top: 10px;">Book This Room</button> <!-- Added margin -->
+                <button  class="btn" style="margin-top: 10px;"><a href="http://127.0.0.1:5500/Delux-Hotel-Booking-Web/payment.html?room=Family+Room">Book This Room</a></button> <!-- Added margin -->
             </div>
         </div>
     </section>
